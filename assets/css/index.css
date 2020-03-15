@@ -1,10 +1,82 @@
 body{
-	background: #3a6186;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: white;
+	color: black;
+	font-family: 'Sen', sans-serif;
 }
 
 h1{
 	text-align: center;
+}
+
+.landscape{
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.bigIMG{
+	width: 100%;
+	max-width: 2200px;
+}
+
+.insideTextBig{
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 59%;
+  	left: 25%;
+  	transform: translate(-50%, -50%);
+}
+
+.insideTextNormal{
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 69%;
+  	left: 43%;
+  	transform: translate(-50%, -50%);
+}
+
+.bigMinor{
+	font-size:3.5vw;
+}
+
+.bigMajor{
+	font-size:5.5vw;
+}
+
+.bigH{
+	font-size:9.5vw;
+}
+
+#topBtn{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	font-size: 22px;
+	width: 50px;
+	height: 50px;
+	background: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+	display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+	.myName{
+		font-size: 4.2vw;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+  .bigMinor{
+     font-size: 67px;
+  }
+  .bigMajor{
+     font-size: 106px;
+  }
+  .bigH{
+     font-size: 184px;
+  }
 }
