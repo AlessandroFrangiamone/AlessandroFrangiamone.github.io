@@ -1,6 +1,7 @@
 body{
 	color: black;
 	font-family: 'Sen', sans-serif;
+	text-align: center;
 }
 
 h1{
@@ -78,5 +79,58 @@ h1{
   }
   .bigH{
      font-size: 184px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+	.nav-link{
+		font-size: 14.5px;
+	}
+}
+
+
+
+.nav-link{
+	position: relative;
+	display: block;
+  	padding: 10px;
+  	color: #aaa;
+  	font-weight: 500;
+  	text-transform: uppercase;
+}
+
+.nav-link:after,
+.nav-link:before{
+	transition: all .3s;
+}
+
+.nav-link:hover{
+  	position: relative;
+}
+
+.nav-link:after{
+	position: absolute;
+  	bottom: 5px;
+  	left: 0;
+  	right: 0;
+ 	margin: auto;
+  	width: 0%;
+  	content: '.';
+  	color: transparent;
+  	background: #aaa;
+  	height: 1.5px;
+}
+
+.nav-link:hover:after{
+  width: 80%;
+}
+
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
   }
 }
