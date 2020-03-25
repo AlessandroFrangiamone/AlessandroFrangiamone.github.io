@@ -9,7 +9,15 @@ h1{
 }
 
 p{
-	font-size: 1.5vw;
+}
+
+.p_medium{
+	font-size: 1.3rem;
+}
+
+a {
+	text-decoration: none;
+	background-color: none;
 }
 
 .landscape{
@@ -140,7 +148,7 @@ p{
 }
 
 .rounded{
-	width:11vw;
+	width:12vw;
 	padding:1vw;
 	margin: 1vw;
 }
@@ -149,10 +157,33 @@ p{
 	padding:5vw;
 }
 
+#about_div{
+	width: 100%;
+}
+
 .text_section{
 	margin-bottom: 3vw;
 }
 
 .section{
 	margin-top: 5vw;
+}
+
+.img-fluid{
+	object-fit: cover;
+	border-radius: 10%;
+}
+
+.mid_align{
+	margin-top: 1vw;
+ }
+
+.row{
+	height: 100%;
+	width: 100%;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+.container{
+	width: 100%;
 }
