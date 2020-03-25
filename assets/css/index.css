@@ -8,6 +8,10 @@ h1{
 	text-align: center;
 }
 
+p{
+	font-size: 1.5vw;
+}
+
 .landscape{
 	position: relative;
   	text-align: center;
@@ -133,4 +137,22 @@ h1{
   100% {
     width: 100%;
   }
+}
+
+.rounded{
+	width:11vw;
+	padding:1vw;
+	margin: 1vw;
+}
+
+#contact_img{
+	padding:5vw;
+}
+
+.text_section{
+	margin-bottom: 3vw;
+}
+
+.section{
+	margin-top: 5vw;
 }
